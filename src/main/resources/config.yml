@@ -1,0 +1,21 @@
+anti-farm:
+  enabled: true
+  cooldown-seconds: 30
+
+blood-system:
+  kill-points: 10
+  death-loss: 5
+
+tiers:
+  1:
+    required-bp: 50
+    commands:
+      - "say %player% reached Tier 1!"
+  2:
+    required-bp: 150
+    commands:
+      - "say %player% reached Tier 2!"
+  3:
+    required-bp: 300
+    commands:
+      - "say %player% reached Tier 3!"

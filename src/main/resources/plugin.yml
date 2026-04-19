@@ -1,0 +1,20 @@
+name: BloodTier
+main: com.ancientcore.bloodtier.BloodTierPlugin
+version: 1.0
+api-version: 1.21
+author: AncientCore
+
+commands:
+  bloodtier:
+    description: Main BloodTier command
+    usage: /bloodtier
+    aliases: [bt]
+
+permissions:
+  bloodtier.use:
+    description: Allows use of /bloodtier
+    default: true
+
+  bloodtier.admin:
+    description: Admin commands like reload
+    default: op
